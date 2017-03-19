@@ -18,10 +18,16 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-
         </activity>
+        <activity android:name=".Senin" />
+        <activity android:name=".Selasa" />
+        <activity android:name=".Rabu" />
+        <activity android:name=".Kamis" />
+        <activity android:name=".Jumat" />
+        <activity android:name=".Sabtu"></activity>
     </application>
 
 </manifest>

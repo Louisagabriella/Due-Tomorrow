@@ -24,6 +24,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
+        android:onClick="goToAttract"
         android:text="Senin" />
 
     <Button
@@ -33,6 +34,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:onClick="goToAttract"
         android:text="Selasa" />
 
     <Button
@@ -42,6 +44,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:onClick="goToAttract"
         android:text="Rabu" />
 
     <Button
@@ -51,6 +54,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:onClick="goToAttract"
         android:text="Kamis" />
 
     <Button
@@ -60,6 +64,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:onClick="goToAttract"
         android:text="Jumat" />
 
     <Button
@@ -69,6 +74,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:onClick="goToAttract"
         android:text="Sabtu" />
 
     <TextView
