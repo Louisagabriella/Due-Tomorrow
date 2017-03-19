@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="id.sch.smktelkom_mlg.project2.xirpl506101216.duetomorrow.SabtuFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/sabtu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="SABTU"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/sabtu12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <CheckBox
+            android:id="@+id/set6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Alarm" />
+
+        <Button
+            android:id="@+id/buttonOK6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+    </LinearLayout>
+</ScrollView>

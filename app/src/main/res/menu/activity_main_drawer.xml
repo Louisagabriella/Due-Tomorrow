@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_jadwal"
+            android:title="Atur Jadwal" />
+        <item
+            android:id="@+id/nav_senin"
+            android:title="Senin" />
+        <item
+            android:id="@+id/nav_selasa"
+            android:title="Selasa" />
+        <item
+            android:id="@+id/nav_rabu"
+            android:title="Rabu" />
+        <item
+            android:id="@+id/nav_kamis"
+            android:title="Kamis" />
+        <item
+            android:id="@+id/nav_jumat"
+            android:title="Jumat" />
+        <item
+            android:id="@+id/nav_sabtu"
+            android:title="Sabtu" />
+
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_alarm"
+                android:title="Set Alarm" />
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
