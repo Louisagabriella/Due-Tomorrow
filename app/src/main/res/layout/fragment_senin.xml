@@ -12,135 +12,18 @@
 
         <!-- TODO: Update blank fragment layout -->
 
-        <TextView
-            android:id="@+id/senin"
+        <Button
+            android:id="@+id/buttonlihat"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:text="SENIN"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/senin12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <CheckBox
-            android:id="@+id/set1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Set Alarm" />
+            android:layout_height="279dp"
+            android:onClick="goToAttract"
+            android:text="Lihat Mapel" />
 
         <Button
-            android:id="@+id/buttonOK1"
+            android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="OK" />
+            android:layout_height="276dp"
+            android:text="Setting Alarm" />
 
 
     </LinearLayout>
