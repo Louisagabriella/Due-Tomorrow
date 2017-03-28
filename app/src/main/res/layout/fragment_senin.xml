@@ -11,18 +11,26 @@
         tools:context="id.sch.smktelkom_mlg.project2.xirpl506101216.duetomorrow.SeninFragment">
 
         <!-- TODO: Update blank fragment layout -->
-
+        <TextView
+            android:id="@+id/senin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="SENIN"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
         <Button
             android:id="@+id/buttonlihat"
             android:layout_width="match_parent"
-            android:layout_height="279dp"
+            android:layout_height="102dp"
             android:onClick="goToAttract"
             android:text="Lihat Mapel" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="276dp"
+            android:layout_height="97dp"
             android:text="Setting Alarm" />
 
 

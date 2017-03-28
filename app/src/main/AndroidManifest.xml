@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view_da">
+        <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,8 +28,8 @@
         <activity android:name=".Kamis" />
         <activity android:name=".Jumat" />
         <activity android:name=".Sabtu" />
-        <activity android:name=".WelcomeActivity" />
-        <activity android:name=".view_data"></activity>
+        <activity android:name=".view_da"></activity>
+        <activity android:name=".view_data" />
     </application>
 
 </manifest>
