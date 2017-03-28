@@ -18,7 +18,7 @@ public class Ang {
     }
 
 
-    public void setId2(long id3) {
+    public void setId3(long id3) {
         this.id3 = id3;
     }
 
