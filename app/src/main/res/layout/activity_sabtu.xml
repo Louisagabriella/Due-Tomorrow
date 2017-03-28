@@ -23,94 +23,33 @@
             android:textSize="36sp" />
 
         <EditText
-            android:id="@+id/editText1"
-            android:layout_width="match_parent"
+            android:id="@+id/jam6"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:hint="Jam Ke-"
+            android:inputType="number">
+
+            <requestFocus />
+        </EditText>
 
         <EditText
-            android:id="@+id/editText2"
-            android:layout_width="match_parent"
+            android:id="@+id/nama6"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:hint="Nama Pelajaran"
+            android:inputType="text">
 
-        <EditText
-            android:id="@+id/editText3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editText4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editText5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editText6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editText7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editText8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editText9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editText10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editText11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editText12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
+            <requestFocus />
+        </EditText>
         <Button
-            android:id="@+id/simpan6"
-            android:layout_width="match_parent"
+            android:id="@+id/button_submit6"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SIMPAN" />
+            android:text="Submit" />
 
 
     </LinearLayout>

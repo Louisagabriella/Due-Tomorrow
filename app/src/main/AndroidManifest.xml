@@ -28,8 +28,12 @@
         <activity android:name=".Kamis" />
         <activity android:name=".Jumat" />
         <activity android:name=".Sabtu" />
-        <activity android:name=".view_da"></activity>
+        <activity android:name=".view_da" />
         <activity android:name=".view_data" />
+        <activity android:name=".view_d" />
+        <activity android:name=".view_" />
+        <activity android:name=".view" />
+        <activity android:name=".vie"></activity>
     </application>
 
 </manifest>
