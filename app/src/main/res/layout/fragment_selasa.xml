@@ -7,11 +7,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="id.sch.smktelkom_mlg.project2.xirpl506101216.duetomorrow.SelasaFragment">
+        android:weightSum="1"
+        tools:context="id.sch.smktelkom_mlg.project2.xirpl506101216.duetomorrow.SeninFragment">
 
         <!-- TODO: Update blank fragment layout -->
         <TextView
-            android:id="@+id/selasa"
+            android:id="@+id/senin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="casual"
@@ -20,125 +21,18 @@
             android:textColor="@android:color/black"
             android:textSize="36sp" />
 
-        <TextView
-            android:id="@+id/selasa1"
+        <Button
+            android:id="@+id/buttonlihat1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/selasa12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <CheckBox
-            android:id="@+id/set2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Set Alarm" />
+            android:layout_height="102dp"
+            android:onClick="goToAttract"
+            android:text="Lihat Mapel" />
 
         <Button
-            android:id="@+id/buttonOK2"
+            android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="OK" />
+            android:layout_height="97dp"
+            android:text="Setting Alarm" />
 
 
     </LinearLayout>

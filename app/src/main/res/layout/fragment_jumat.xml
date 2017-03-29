@@ -7,11 +7,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="id.sch.smktelkom_mlg.project2.xirpl506101216.duetomorrow.JumatFragment">
+        android:weightSum="1"
+        tools:context="id.sch.smktelkom_mlg.project2.xirpl506101216.duetomorrow.SeninFragment">
 
         <!-- TODO: Update blank fragment layout -->
         <TextView
-            android:id="@+id/jumat"
+            android:id="@+id/senin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="casual"
@@ -20,125 +21,19 @@
             android:textColor="@android:color/black"
             android:textSize="36sp" />
 
-        <TextView
-            android:id="@+id/jumat1"
+        <Button
+            android:id="@+id/buttonlihat5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/jumat12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="36sp" />
-
-        <CheckBox
-            android:id="@+id/set5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Set Alarm" />
+            android:layout_height="102dp"
+            android:onClick="goToAttract"
+            android:text="Lihat Mapel" />
 
         <Button
-            android:id="@+id/buttonOK5"
+            android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="OK" />
+            android:layout_height="97dp"
+            android:text="Setting Alarm" />
+
 
     </LinearLayout>
 </ScrollView>
