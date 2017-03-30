@@ -114,7 +114,6 @@ public class DBDataSource {
         cursor.close();
         return daftarBarang;
     }
-
     //ambil satu barang sesuai id
     public Barang getBarang(long id) {
         Barang barang = new Barang(); //inisialisasi barang

@@ -114,4 +114,32 @@ public class DBDataSour {
         cursor.close();
         return daftarBarang;
     }
+
+    //ambil satu barang sesuai id
+    public Barang getBarang(long id) {
+        Barang barang = new Barang(); //inisialisasi barang
+        //select query
+        Cursor cursor = database.query(DBHelpe.TABLE_NAME1, allColumns, "_id =" + id, null, null, null, null);
+        //ambil data yang pertama
+        cursor.moveToFirst();
+        //masukkan data cursor ke objek barang
+        barang = cursorToBarang(cursor);
+        //tutup sambungan
+        cursor.close();
+        //return barang
+        return barang;
+    }
+
+    //update barang yang diedit
+    public void updateBarang(Barang b) {
+        //ambil id barang
+        String strFilter = "_id=" + b.getId();
+        //memasukkan ke content values
+        ContentValues args = new ContentValues();
+        //masukkan data sesuai dengan kolom pada database
+        args.put(DBHelpe.COLUMN_JAM1, b.getJamke());
+        args.put(DBHelpe.COLUMN_NAME1, b.getNama_pelajaran());
+        //update query
+        database.update(DBHelpe.TABLE_NAME1, args, strFilter, null);
+    }
 }

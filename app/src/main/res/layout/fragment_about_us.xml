@@ -1,18 +1,166 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/walp">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         tools:context="id.sch.smktelkom_mlg.project2.xirpl506101216.duetomorrow.AboutUsFragment">
 
         <!-- TODO: Update blank fragment layout -->
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Fragment kosong" />
+            android:layout_height="wrap_content"
+            android:paddingBottom="40dp"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textStyle="normal|bold" />
 
-    </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="25dp"
+                android:text="Louisa Gabriella"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="25dp"
+                android:text="Erika Prafitasari"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="95dp"
+                android:src="@drawable/lisaa" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:src="@drawable/erikaa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="27dp"
+                android:text="Ayu Ika FZ"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="25dp"
+                android:text="Galbie Elinour"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ikaa" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:src="@drawable/galbie" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:text="Thanks To"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="Allah SWT"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="Epic Family"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="Bu Felly"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="SMK TELKOM MALANG"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="110dp"
+                android:src="@drawable/logots" />
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ligi" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
 </ScrollView>

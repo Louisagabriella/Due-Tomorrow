@@ -1,5 +1,4 @@
 package id.sch.smktelkom_mlg.project2.xirpl506101216.duetomorrow;
-
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -8,7 +7,7 @@ import java.util.ArrayList;
 
 public class view_da extends ListActivity {
     //inisialisasi kontroller
-    private DBDataSour dataSource;
+    private DBDataSo dataSource;
 
     //inisialisasi arraylist
     private ArrayList<Barang> values;
@@ -18,7 +17,7 @@ public class view_da extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_da);
 
-        dataSource = new DBDataSour(this);
+        dataSource = new DBDataSo(this);
         // buka kontroller
         dataSource.open();
 

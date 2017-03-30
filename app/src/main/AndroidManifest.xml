@@ -34,7 +34,7 @@
         <activity android:name=".view_d" />
         <activity android:name=".view_" />
         <activity android:name=".view" />
-        <activity android:name=".view_data"></activity>
+        <activity android:name=".view_data" />
     </application>
 
 </manifest>
