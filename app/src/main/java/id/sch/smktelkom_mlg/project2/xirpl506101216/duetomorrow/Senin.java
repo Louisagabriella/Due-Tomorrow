@@ -56,9 +56,9 @@ public class Senin extends Activity implements OnClickListener {
                 barang = dataSource.createBarang(jam, nama);
 
                 //konfirmasi kesuksesan
-                Toast.makeText(this, "Data Berhasil Ditambahkan\n" +
-                        "Jam Ke-" + barang.getJamke() +
-                        "Nama Pelajaran" + barang.getNama_pelajaran(), Toast.LENGTH_LONG).show();
+                Toast.makeText(this, " Data Berhasil Ditambahkan\n " +
+                        " Jam Ke- " + barang.getJamke() +
+                        " Nama Pelajaran " + barang.getNama_pelajaran(), Toast.LENGTH_LONG).show();
                 break;
         }
 

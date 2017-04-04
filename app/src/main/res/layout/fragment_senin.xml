@@ -36,12 +36,6 @@
             android:onClick="goToAttract"
             android:text="Lihat Mapel" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="103dp"
-            android:background="@color/bg_screen2"
-            android:text="Setting Alarm" />
         </LinearLayout>
 
     </LinearLayout>

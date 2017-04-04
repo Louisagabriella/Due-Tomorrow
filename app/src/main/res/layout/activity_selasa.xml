@@ -29,8 +29,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:ems="10"
-            android:hint="Jam Ke-"
-            android:inputType="number">
+            android:hint="Nama Pelajaran"
+            android:inputType="text">
 
             <requestFocus />
         </EditText>
@@ -41,8 +41,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:ems="10"
-            android:hint="Nama Pelajaran"
-            android:inputType="text">
+            android:hint="Jam Ke-"
+            android:inputType="number">
 
             <requestFocus />
         </EditText>

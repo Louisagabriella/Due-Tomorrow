@@ -27,22 +27,17 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:paddingTop="20dp">
-        <Button
-            android:id="@+id/buttonlihat5"
-            android:layout_width="185dp"
-            android:layout_height="102dp"
-            android:layout_marginRight="20dp"
-            android:background="@color/bg_screen2"
-            android:elevation="0dp"
-            android:onClick="goToAttract"
-            android:text="Lihat Mapel" />
 
             <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
+                android:id="@+id/buttonlihat5"
+                android:layout_width="185dp"
                 android:layout_height="102dp"
+                android:layout_marginRight="20dp"
                 android:background="@color/bg_screen2"
-                android:text="Setting Alarm" />
+                android:elevation="0dp"
+                android:onClick="goToAttract"
+                android:text="Lihat Mapel" />
+
         </LinearLayout>
 
     </LinearLayout>
