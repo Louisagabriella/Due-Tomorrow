@@ -35,7 +35,30 @@
         <activity android:name=".view_" />
         <activity android:name=".view" />
         <activity android:name=".view_data" />
+
+
+        <activity android:name=".awal"></activity>
+
+        <activity
+            android:name=".createOrEditAlert"
+            android:parentActivityName=".awal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".awal" />
+            />
+        </activity>
+
+        <receiver android:name=".AlarmSetter">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"></receiver>
+
+        <service
+            android:name=".AlarmService"
+            android:enabled="true"></service>
     </application>
-
-
 </manifest>
