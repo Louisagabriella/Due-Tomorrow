@@ -97,6 +97,8 @@ public class MainActivity extends AppCompatActivity
             fragment = new JumatFragment();
         } else if (id == R.id.nav_sabtu) {
             fragment = new SabtuFragment();
+        } else if (id == R.id.nav_note) {
+            fragment = new notes();
         } else if (id == R.id.nav_alarm) {
             fragment = new SetAlarmFragment();
         } else if (id == R.id.nav_aboutus) {

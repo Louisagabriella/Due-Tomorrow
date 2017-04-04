@@ -4,32 +4,50 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_jadwal"
+            android:icon="@drawable/ic_date_range_black_24dp"
             android:title="Atur Jadwal" />
         <item
             android:id="@+id/nav_senin"
+            android:icon="@drawable/ic_filter_1_black_24dp"
             android:title="Senin" />
         <item
             android:id="@+id/nav_selasa"
+            android:icon="@drawable/ic_filter_2_black_24dp"
             android:title="Selasa" />
         <item
             android:id="@+id/nav_rabu"
+            android:icon="@drawable/ic_filter_3_black_24dp"
             android:title="Rabu" />
         <item
             android:id="@+id/nav_kamis"
+            android:icon="@drawable/ic_filter_4_black_24dp"
             android:title="Kamis" />
         <item
             android:id="@+id/nav_jumat"
+            android:icon="@drawable/ic_filter_5_black_24dp"
             android:title="Jumat" />
         <item
             android:id="@+id/nav_sabtu"
+            android:icon="@drawable/ic_filter_6_black_24dp"
             android:title="Sabtu" />
 
+
     </group>
+
+    <item android:title="Notes">
+        <menu>
+            <item
+                android:id="@+id/nav_note"
+                android:icon="@drawable/ic_border_color_black_24dp"
+                android:title="Add Notes" />
+        </menu>
+    </item>
 
     <item android:title="Setting">
         <menu>
             <item
                 android:id="@+id/nav_alarm"
+                android:icon="@drawable/ic_alarm_black_24dp"
                 android:title="Set Alarm" />
         </menu>
     </item>
@@ -42,5 +60,4 @@
                 android:title="About Us" />
         </menu>
     </item>
-
 </menu>

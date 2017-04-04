@@ -60,5 +60,16 @@
         <service
             android:name=".AlarmService"
             android:enabled="true"></service>
+
+        <activity android:name=".iwil"></activity>
+
+        <activity
+            android:name=".createOrEditNote"
+            android:parentActivityName=".iwil">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".iwil" />
+            />
+        </activity>
     </application>
 </manifest>
