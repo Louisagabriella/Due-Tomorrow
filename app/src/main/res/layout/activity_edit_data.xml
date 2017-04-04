@@ -26,7 +26,8 @@
         android:layout_marginTop="15dp"
         android:layout_weight="0.03"
         android:background="#afffffff"
-        android:ems="10">
+        android:ems="10"
+        android:hint="Nama Pelajaran">
 
         <requestFocus />
     </EditText>
@@ -39,6 +40,7 @@
         android:layout_weight="0.03"
         android:background="#afffffff"
         android:ems="10"
+        android:hint="Jam Ke-"
         android:inputType="number" />
 
     <LinearLayout

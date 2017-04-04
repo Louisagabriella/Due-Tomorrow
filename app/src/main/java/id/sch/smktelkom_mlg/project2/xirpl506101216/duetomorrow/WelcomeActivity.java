@@ -60,6 +60,8 @@ public class WelcomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Checking for first time launch - before calling setContentView()
         prefManager = new PrefManager(this);
         if (!prefManager.isFirstTimeLaunch()) {
             launchHomeScreen();
@@ -196,5 +198,4 @@ public class WelcomeActivity extends AppCompatActivity {
             container.removeView(view);
         }
     }
-
 }

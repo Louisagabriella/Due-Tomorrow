@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class view_da extends ListActivity {
     //inisialisasi kontroller
-    private DBDataSo dataSource;
+    private DBDataSour dataSource;
 
     //inisialisasi arraylist
     private ArrayList<Barang> values;
@@ -17,7 +17,7 @@ public class view_da extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_da);
 
-        dataSource = new DBDataSo(this);
+        dataSource = new DBDataSour(this);
         // buka kontroller
         dataSource.open();
 

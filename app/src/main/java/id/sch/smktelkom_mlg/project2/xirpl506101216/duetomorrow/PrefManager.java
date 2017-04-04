@@ -1,13 +1,11 @@
 package id.sch.smktelkom_mlg.project2.xirpl506101216.duetomorrow;
 
+/**
+ * Created by Louisa on 4/3/2017.
+ */
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
-/**
- * Created by GABS on 3/14/2017.
- */
-
 public class PrefManager {
     // Shared preferences file name
     private static final String PREF_NAME = "androidhive-welcome";
@@ -32,4 +30,5 @@ public class PrefManager {
         editor.putBoolean(IS_FIRST_TIME_LAUNCH, isFirstTime);
         editor.commit();
     }
+
 }

@@ -56,9 +56,9 @@ public class Sabtu extends Activity implements OnClickListener {
                 barang = dataSource.createBarang(jam, nama);
 
                 //konfirmasi kesuksesan
-                Toast.makeText(this, "Data Berhasil Ditambahkan\n" +
-                        "Jam Ke-" + barang.getId() +
-                        "Nama Pelajaran" + barang.getNama_pelajaran(), Toast.LENGTH_LONG).show();
+                Toast.makeText(this, " Data Berhasil Ditambahkan\n " +
+                        " Jam Ke- " + barang.getId() +
+                        " Nama Pelajaran " + barang.getNama_pelajaran(), Toast.LENGTH_LONG).show();
                 break;
         }
 
