@@ -68,7 +68,7 @@ public class pengingat extends RecyclerView.Adapter<pengingat.ViewHolder> {
 
     // Populating the items in the holder
     @Override
-    public void onBindViewHolder(pengingat.ViewHolder viewHolder, int id) {
+    public void onBindViewHolder(ViewHolder viewHolder, int id) {
         mCursor.moveToPosition(id);
 
         String type = mCursor.getString(mCursor.getColumnIndex(id.sch.smktelkom_mlg.project2.xirpl506101216.duetomorrow.database.DB_COLUMN_TYPE1));
